@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+  <head>
+  <title>Drink Chooser</title>
+  </head>
+<body>
+  <h1> Drink Chooser</h1>
+  <p> Let's get a drink in Portland today</p>
+  <p2> Are you over 21?</p2>
+  <input type="button" id="Btn" onclick="myFunction()" value ="Yes">
+  <input type="button" id="Btn2" onclick="myFunction2()" value ="No">
+  <p id="answerbox"></p>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("Btn").value;
+      document.getElementById("answerbox").innerHTML = x;
+    }
+  </script>
+  <script>
+    function myFunction2() {
+      var x = document.getElementById("Btn2").value;
+      document.getElementById("answerbox").innerHTML = x;
+    }
+  </script>
+</body>
+
+</html>
